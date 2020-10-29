@@ -1,0 +1,52 @@
+.par {
+  margin: 15px;
+}
+
+.basic {
+/*  background-color: aqua;*/
+  width: 365px;
+  height: 555px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  position: relative;
+}
+
+#clock {
+  background-color: red;
+  text-align: center;
+  height: 290px;
+  width: 290px;
+  position: absolute;
+  top: 130px;
+  left: 50px;
+  font-family: 'Faster One', cursive;
+  font-size: 4rem;
+  color: #378dd8;
+  padding-top: 50px;
+  border-radius: 150px;
+
+}
+
+#year {
+/*  background-color: blue;*/
+  text-align: center;
+  width: 290px;
+  position: absolute;
+  font-size: 2.3rem;
+  margin-top: -26rem;
+  left: 5rem;
+  color: yellow;
+  font-family: 'Quantico', sans-serif;
+}
+
+#day {
+/*  background-color: black;*/
+  text-align: center;
+  width: 290px;
+  position: absolute;
+  font-size: 2.3rem;
+  margin-top: -22rem;
+  left: 5rem;
+  font-family: 'Quantico', sans-serif;
+  color: lime;
+}
